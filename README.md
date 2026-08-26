@@ -12,4 +12,4 @@ Junior Web Developer
 Studio Onboarding & GitHub Workspace Setup
 
 ## Live Site
-GitHub Pages URL
+[GitHub Pages URL](https://jenieciajae.github.io/webworks-studio/)
