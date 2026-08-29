@@ -8,18 +8,237 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   background-color: #E8E1C9;
-  color:333333;
+  color:#333333;
+  display: grid;
+  place-items: center;
+
+}
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #315C3D;
+  font-size: 40px;
+}
+
+#hero-section {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#plant-text {
+  width: 400px;
+}
+
+#plant-text h1 {
+  margin-top: 0;
+}
+
+#patio-idea {
+  width: 300px;
+  padding-top: 30px;
+}
+
+#patio-idea .photo {
+  width: 300px;
+  height: 220px;
+  display: block;
+}
+
+.section-divider {
+  width: 100%;
+  height: 4px;
+  background-color: #315C3D;
+  margin-top: 20px;
+}
+
+
+#Container {
+  background-color: #FFFFFF;
+  width: 900px;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  
 
 }
 
+#logo {
+ display: flex;
+justify-content: flex-start;
+  margin-right: auto;
+}
+
+#contact{
+   margin-left: auto;
+   padding-top: 30px;
+   
+  
+}
+
+nav {
+  background-color:#285B39;
+  width: 720px;
+  display: grid;
+  place-items: center;
+  margin:10px;
+}
+nav ul {
+  list-style-type: none; 
+  margin: 20px;
+  padding: 0px;
+  display: flex;         
+  gap: 30px;          
+}
+
+nav a {
+  text-decoration: none; 
+  color: #E8E1C9;
+}
+
+nav a:hover {
+  color: #993300;   
+}
+
+header {
+  width:720px;
+  display: flex;
+ 
+}
+
+.plant-table {
+  width: 720px;
+  border: 1px solid #D5CCAE;
+  border-collapse: collapse;
+  background-color: #F6F0DA;
+}
+
+.plant-table td {
+  width: 240px;
+  padding: 10px;
+  vertical-align: top;
+  border-right: 1px solid #D5CCAE;
+}
+
+.plant-table td:last-child {
+  border-right: none;
+}
+
+.plant-table td > b {
+  color: #315C3D;
+}
+
+.plant-best {
+  font-size: 0.875rem;
+}
+
+#plants-south {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.plants-layout {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  column-gap: 20px;
+  align-items: start;
+}
+
+
+/* QUICK LINKS */
+
+.quick-links {
+  background-color: #EFE7CE;
+  padding: 8px;
+  height: 400px;
+}
+
+.quick-links h3 {
+  color: #315C3D;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.quick-links ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.quick-links li {
+  margin-bottom: 15px;
+}
+
+.quick-links a {
+  color: inherit;
+}
+
+
+.plants-content {
+  width: 510px;
+}
+
+.plants-content h2 {
+  margin-top: 0;
+}
+
+.plants-content p {
+  margin-bottom: 20px;
+}
+
+
+.content-divider {
+  height: 1px;
+  background-color: #C8BE9D;
+  margin: 25px 0;
+}
+
+
+.about-content {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.storefront {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.storefront img {
+  width: 170px;
+  height: 130px;
+  display: block;
+}
+
+.about-text {
+  width: 330px;
+}
+
+#hours {
+  width: 720px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #F4EAC8;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+#hours b {
+  color: #315C3D;
+}
+
+
+/*--------------*/
+
 p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
   line-height: 20px;
 }
 
 .intro {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 23px;
   color: #4C5148;
@@ -40,21 +259,8 @@ a:hover {
   color: #993300;
 }
 
-.navcell {
-  background-color: #315C3D;
-  height: 34px;
-}
-
-.navcell a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #FFFFFF;
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.navcell a:hover {
-  color: #FFF3B8;
+a:active {
+  color: #993300;
 }
 
 .photo {
@@ -62,34 +268,13 @@ a:hover {
 }
 
 .footertext {
-  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   font-size: 11px;
   color: #666666;
 }
 
 .footertext a {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
 }
 
-/* old notes
-.green { color: #315C3D; }
-*/
 
-td {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-/* duplicate link rules from later update */
-a:link {
-  color: #285B39;
-}
-
-a:visited {
-  color: #6C4E32;
-}
-
-a:active {
-  color: #993300;
-}
