@@ -2,9 +2,9 @@
 
 ## Changes 
 
-- **Created a main container ** This helps keep the page centered and organized.
-- **Removed tables and moved styling to CSS ** This makes the HTML cleaner and keeps the styling in one place.
-- **Removed Quick Links images and cleaned up CSS ** I used regular bullet points instead and removed duplicate CSS to make the code simpler.
+- Created a main container: This helps keep the page centered and organized.
+- Removed tables and moved styling to CSS: This makes the HTML cleaner and keeps the styling in one place.
+- Removed Quick Links images and cleaned up CSS: I used regular bullet points instead and removed duplicate CSS to make the code simpler.
 
 ## Left for Week 3
 
