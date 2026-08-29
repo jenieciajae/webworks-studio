@@ -1,31 +1,19 @@
-# Southtown Plant Co. — Week 2 Inherited Client Site
+# Southtown Plant Co. - Week 2
 
-## Scenario
-WebWorks Studio has inherited this small-business website from a previous developer.
+## Changes 
 
-The site is functional, but the underlying front-end code reflects practices common in older websites. Your assignment is to modernize the code while preserving the client's content and general visual identity.
+- **Created a main container ** This helps keep the page centered and organized.
+- **Removed tables and moved styling to CSS ** This makes the HTML cleaner and keeps the styling in one place.
+- **Removed Quick Links images and cleaned up CSS ** I used regular bullet points instead and removed duplicate CSS to make the code simpler.
 
-## Before You Edit
-1. Keep an untouched copy of this starter project.
-2. Put your working copy in:
-   `webworks-studio/week02-build-better/`
-3. Open the entire project folder in Visual Studio Code.
-4. Preview `index.html` in a browser.
-5. Resize the browser window and observe the existing behavior before you change anything.
+## Left for Week 3
 
-## Important
-The inherited site is intentionally **not responsive**.
+I left the responsive design for Week 3. The site is still mainly set up for a desktop-sized screen, so I will work on the mobile and tablet layouts next.
 
-Do not simply redesign the site from scratch. Refactor it according to the requirements in the Week 2 Canvas assignment.
+## Possible Responsive Issues
 
-## Preserve
-- Client content
-- General color palette and visual identity
-- Working navigation and links
-- Meaningful image alternative text
-- Required site information
-
-## Your Goal
-Make the code easier for another developer to understand, maintain, and extend.
-
-Refer to the Canvas assignment for all required technical work, GitHub workflow, and submission directions.
+- The 720px sections may be too wide on smaller screens.
+- The navigation may not fit on one line.
+- The hero image and text may be too crowded side-by-side.
+- The plant table may need to change for mobile.
+- The Quick Links and main content could be stacked vertically.
