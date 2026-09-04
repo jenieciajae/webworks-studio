@@ -20,7 +20,8 @@ h1 {
 }
 
 #hero-section {
-  width: 720px;
+  width: 100%;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -44,8 +45,8 @@ h1 {
 }
 
 #patio-idea .photo {
-  width: 300px;
-  height: 220px;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -59,7 +60,8 @@ h1 {
 
 #Container {
   background-color: #FFFFFF;
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   padding: 10px;
   display: grid;
   place-items: center;
@@ -67,10 +69,9 @@ h1 {
 
 }
 
-#logo {
- display: flex;
-justify-content: flex-start;
-  margin-right: auto;
+#logo img {
+  max-width: 100%;
+  height: auto;
 }
 
 #contact{
@@ -81,22 +82,25 @@ justify-content: flex-start;
 }
 
 nav {
-  background-color:#285B39;
-  width: 720px;
-  display: grid;
-  place-items: center;
-  margin:10px;
+  background-color: #285B39;
+  width: 100%;
+  max-width: 720px;
+  margin: 10px auto;
+  padding: 10px;
+  box-sizing: border-box;
 }
+
 nav ul {
-  list-style-type: none; 
-  margin: 20px;
-  padding: 0px;
-  display: flex;         
-  gap: 30px;          
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 nav a {
-  text-decoration: none; 
   color: #E8E1C9;
 }
 
@@ -105,30 +109,32 @@ nav a:hover {
 }
 
 header {
-  width:720px;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
  
 }
 
 .plant-table {
-  width: 720px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   border: 1px solid #D5CCAE;
-  border-collapse: collapse;
   background-color: #F6F0DA;
 }
 
-.plant-table td {
-  width: 240px;
+.plant-card {
   padding: 10px;
-  vertical-align: top;
   border-right: 1px solid #D5CCAE;
 }
 
-.plant-table td:last-child {
+.plant-card:last-child {
   border-right: none;
 }
 
-.plant-table td > b {
+.plant-card > b {
   color: #315C3D;
 }
 
@@ -137,7 +143,8 @@ header {
 }
 
 #plants-south {
-  width: 720px;
+  width: 100%;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -178,7 +185,7 @@ header {
 
 
 .plants-content {
-  width: 510px;
+  min-width: 0;
 }
 
 .plants-content h2 {
@@ -204,22 +211,23 @@ header {
 }
 
 .storefront {
-  width: 180px;
-  flex-shrink: 0;
+  flex: 0 1 180px;
 }
 
 .storefront img {
-  width: 170px;
-  height: 130px;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
 .about-text {
-  width: 330px;
+  flex: 1;
+  min-width: 0;
 }
 
 #hours {
-  width: 720px;
+  width: 100%;
+  max-width: 720px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #F4EAC8;
@@ -277,4 +285,111 @@ a:active {
   font-size: 11px;
 }
 
+/* responsive */
 
+/* Medium screens */
+@media (max-width: 800px) {
+
+  #Container {
+    max-width: 100%;
+  }
+
+  header,
+  nav,
+  #hero-section,
+  #plants-south,
+  #hours {
+    max-width: 100%;
+  }
+
+  nav ul {
+    gap: 15px;
+  }
+
+  .hero-content {
+    gap: 20px;
+  }
+
+}
+
+
+/* small screens */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  #Container {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #contact {
+    margin-left: 0;
+    padding-top: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+
+  #plant-text,
+  #patio-idea {
+    width: 100%;
+  }
+
+  #patio-idea {
+    padding-top: 0;
+  }
+
+  .plant-table {
+    grid-template-columns: 1fr;
+  }
+
+  .plant-card {
+    border-right: none;
+    border-bottom: 1px solid #D5CCAE;
+  }
+
+  .plant-card:last-child {
+    border-bottom: none;
+  }
+
+  .plants-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-links {
+    height: auto;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .storefront {
+    width: 100%;
+  }
+
+  #hours {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+}

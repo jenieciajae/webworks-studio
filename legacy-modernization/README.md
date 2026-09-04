@@ -1,19 +1,13 @@
-# Southtown Plant Co. - Week 2
+# Southtown Plant Co. - Week 3
 
-## Changes 
+## Changes
 
-- Created a main container: This helps keep the page centered and organized.
-- Removed tables and moved styling to CSS: This makes the HTML cleaner and keeps the styling in one place.
-- Removed Quick Links images and cleaned up CSS: I used regular bullet points instead and removed duplicate CSS to make the code simpler.
+- **Fixed-width layout to Responsive container:** The original site had a lot of fixed 720px and 900px widths that could make the page too wide on smaller screens. I changed these to use 100% width with max-width so the page can adjust to the screen size.
 
-## Left for Week 3
+- **Added Grid and Flexbox:** I used CSS Grid for the plant cards and main content layout. I also used Flexbox for the header, navigation, hero section, and About section. This helps the content move and resize better depending on the screen size.
 
-I left the responsive design for Week 3. The site is still mainly set up for a desktop-sized screen, so I will work on the mobile and tablet layouts next.
+- **Made images and navigation responsive:** The images originally had fixed widths and heights, which could cause problems on smaller screens. I changed the images so they stay inside their containers and added breakpoints so the navigation and content can stack or wrap on smaller screens.
 
-## Possible Responsive Issues
+## Responsive Testing
 
-- The 720px sections may be too wide on smaller screens.
-- The navigation may not fit on one line.
-- The hero image and text may be too crowded side-by-side.
-- The plant table may need to change for mobile.
-- The Quick Links and main content could be stacked vertically.
+I tested the site at narrow, medium, wide, and between-breakpoint sizes. I checked that the navigation still works, the images stay inside their containers, and the content doesn't cause horizontal scrolling.
