@@ -36,15 +36,15 @@ Before submitting, replace the placeholders below with approximately three examp
 
 ### 1. Main Container
 - **Used:** `max-w-7xl mx-auto px-4 md:px-8`
-- **Why:** I used these utilities to keep the content centered, limit its width, and provide consistent page padding across different screen sizes.
+- **Why:** I used this to keep the content centered and give the page consistent spacing on different screen sizes.
 
 ### 2. Responsive Grid
 - **Used:** `grid grid-cols-1 gap-6 md:grid-cols-3`
-- **Why:** This allows the coffee cards to stack in a single column on narrow screens and display in three columns on wider screens.
+- **Why:** I used this for the coffee cards so they stack on smaller screens and line up in three columns on larger screens.
 
 ### 3. Hover and Focus States
-- **Used:** `hover:` and `focus-visible:ring-2` utilities
-- **Why:** These provide visual feedback when users hover over links and buttons and make the current keyboard-focused element easier to see.
+- **Used:** `hover:` and `focus-visible:ring-2`
+- **Why:** I used these to give links and buttons a visible change when they are hovered over and to make it easier to see which element is selected when using the keyboard.
 
 ## Live Site
 Add your published GitHub Pages URL here.
