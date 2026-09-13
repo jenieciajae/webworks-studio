@@ -47,7 +47,7 @@ Before submitting, replace the placeholders below with approximately three examp
 - **Why:** I used these to give links and buttons a visible change when they are hovered over and to make it easier to see which element is selected when using the keyboard.
 
 ## Live Site
-Add your published GitHub Pages URL here.
+[Published GitHub Pages URL](https://jenieciajae.github.io/webworks-studio/)]
 
 ## Reminder
 The Tailwind Play CDN is being used for this instructional sprint only. It is intended for development, not production deployment workflows.
