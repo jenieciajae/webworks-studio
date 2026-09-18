@@ -1,0 +1,49 @@
+:root {
+  --cedar-green: #203c35;
+  --cedar: #a86643;
+  --warm-cream: #f5f0e7;
+  --soft-green: #e8efeb;
+}
+
+body {
+  color: #26312d;
+}
+
+.bg-cedar {
+  background-color: var(--cedar-green);
+}
+
+.bg-cream {
+  background-color: var(--warm-cream);
+}
+
+.bg-soft-green {
+  background-color: var(--soft-green);
+}
+
+.text-cedar {
+  color: var(--cedar);
+}
+
+.btn-cedar {
+  background-color: var(--cedar-green);
+  border-color: var(--cedar-green);
+  color: white;
+}
+
+.btn-cedar:hover {
+  background-color: #26312d;
+  border-color: #26312d;
+  color: white;
+}
+
+.service-image {
+  height: 200px;
+  object-fit: contain;
+}
+
+@media (min-width: 992px) {
+.service-image {
+height: 240px;
+}
+}
