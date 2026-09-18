@@ -113,7 +113,7 @@ I changed some of Bootstrap's default colors to match the Cedar & Stone design. 
 I wouldn't rebuild the responsive navbar from scratch because Bootstrap already has the navbar and collapse functionality built in. Using it saved time and made it easier to make sure the navigation worked on smaller screens and with the keyboard.
 
 ## Live Site
-[Add your published GitHub Pages URL here.]
+https://github.com/jenieciajae/webworks-studio/tree/main/webworks-week05-starter
 
 ## Final Reminder
 The goal is not to use as many Bootstrap classes as possible.
