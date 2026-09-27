@@ -95,13 +95,13 @@ Make the most important trail information easier to compare when using the site 
 ### Finding 5: Comparing trails on mobile takes more work
 
 **Observation:**
-The trail cards are stacked one after another on a phone, which makes it harder to compare different trails.
+The trail cards are stacked one after another on a phone, which makes it harder to compare the different trails.
 
 **Evidence:**
-On a larger screen, Maya can see multiple trail cards at the same time. On a phone, the cards are in one column, so she has to scroll through each trail separately. Maya also benefits from readable text, clear information, and larger touch targets when using her phone.
+On a larger screen, Maya can see multiple trail cards at the same time. On a phone, the cards are shown one at a time, so she has to scroll through each trail separately. Maya also prefers information that is easy to scan and read.
 
 **User Impact:**
-Maya usually looks for hikes on her phone and compares several trails before choosing one. Having to scroll back and forth makes it harder to compare the trails and remember the information from each one. It can also make it harder to quickly find what she is looking for.
+Maya usually researches hikes on her phone and compares several trails before choosing one. Having to scroll back and forth makes it harder to compare things like distance, elevation, and difficulty. It also makes it harder to quickly find the information she is looking for.
 
 **Principle:**
 Mobile usability, cognitive load, and accessibility.
@@ -109,7 +109,7 @@ Mobile usability, cognitive load, and accessibility.
 **Priority:** Medium
 
 **Recommendation:**
-Make the important trail information easier to read, find, and compare when using the site on a phone.
+Make the most important trail information easier to read and compare when using the site on a phone.
 
 ---
 
