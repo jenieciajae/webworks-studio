@@ -93,22 +93,23 @@ Cognitive load and mobile usability.
 Make the most important trail information easier to compare when using the site on a phone.  
 
 ### Finding 5: Comparing trails on mobile takes more work
+
 **Observation:**
-The trail categories look like filters, but they don't actually narrow down the trails.
+The trail cards are stacked one after another on a phone, which makes it harder to compare different trails.
 
 **Evidence:**
-The page says "Choose a category above to narrow the list" and shows options like "Easy," "Moderate," "Under 5 miles," and "Dog friendly." However, clicking these options does not filter the trails.
+On a larger screen, Maya can see multiple trail cards at the same time. On a phone, the cards are in one column, so she has to scroll through each trail separately. Maya also benefits from readable text, clear information, and larger touch targets when using her phone.
 
 **User Impact:**
-Maya might try to use the filters to quickly find an easy or shorter trail. Since they don't work, she has to look through the trails herself.
+Maya usually looks for hikes on her phone and compares several trails before choosing one. Having to scroll back and forth makes it harder to compare the trails and remember the information from each one. It can also make it harder to quickly find what she is looking for.
 
 **Principle:**
-Interaction clarity and consistency.
+Mobile usability, cognitive load, and accessibility.
 
-**Priority:** High
+**Priority:** Medium
 
 **Recommendation:**
-Make the filter options work as users would expect and clearly communicate what they do.  
+Make the important trail information easier to read, find, and compare when using the site on a phone.
 
 ---
 
