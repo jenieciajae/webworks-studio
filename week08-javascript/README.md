@@ -49,4 +49,4 @@ I kept `aria-expanded` updated and used the browser's built-in form validation s
 
 ## Live Site
 
-[Add GitHub Pages URL here.]
+(https://github.com/jenieciajae/webworks-studio/tree/main/week08-javascript)
