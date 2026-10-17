@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project</title>
+  <link rel="stylesheet" href="css/output.css">
+</head>
+<body>
+  <h1 class="text-4xl font-bold text-blue-700">
+    Hello Tailwind!
+</h1>
+<h2 class="text-4xl font-bold text-blue-700">
+  Tailwind is working.
+</h2>
+
+<div class="hs-accordion-group max-w-2xl rounded-2xl border border-gray-200 bg-white shadow-sm">
+
+  <!-- Accordion 1 -->
+  <div class="hs-accordion border-b border-gray-200 last:border-b-0" id="accordion-heading-one">
+    <button
+      class="hs-accordion-toggle flex w-full items-center justify-between px-8 py-5 text-left text-lg font-semibold text-gray-800 
+      transition hover:bg-gray-50 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+      What is Preline UI?
+      <span class="text-xl font-normal">+</span>
+    </button>
+
+    <div
+      id="accordion-content-one"
+      class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+      role="region"
+      aria-labelledby="accordion-heading-one">
+      <div class="px-5 pb-5 text-gray-600">
+        <p>
+          Preline UI is a component library designed to work with Tailwind CSS.
+          It provides reusable interface components and JavaScript behaviors.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Accordion 2 -->
+  <div class="hs-accordion border-b border-gray-200 last:border-b-0" id="accordion-heading-two">
+    <button
+      class="hs-accordion-toggle flex w-full items-center justify-between px-8 py-5 text-left text-lg font-semibold text-gray-800 
+      transition hover:bg-gray-50 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+      Why use a component library?
+      <span class="text-xl font-normal">+</span>
+    </button>
+
+    <div
+      id="accordion-content-two"
+      class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+      role="region"
+      aria-labelledby="accordion-heading-two">
+      <div class="px-5 pb-5 text-gray-600">
+        <p>
+          Component libraries provide tested patterns that can save development
+          time while still allowing us to customize the final design.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Accordion 3 -->
+  <div class="hs-accordion border-b border-gray-200 last:border-b-0" id="accordion-heading-three">
+    <button
+      class="hs-accordion-toggle flex w-full items-center justify-between px-8 py-5 text-left text-lg font-semibold text-gray-800 
+      transition hover:bg-gray-50 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+      Can I customize a Preline component?
+      <span class="text-xl font-normal">+</span>
+    </button>
+
+    <div
+      id="accordion-content-three"
+      class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+      role="region"
+      aria-labelledby="accordion-heading-three">
+      <div class="px-5 pb-5 text-gray-600">
+        <p>
+          Yes. Preline provides the component structure and behavior, while
+          Tailwind utilities let you adapt the appearance to fit your project.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="./node_modules/preline/dist/preline.js"></script>
+</body>
