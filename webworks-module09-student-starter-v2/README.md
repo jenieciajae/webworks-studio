@@ -153,50 +153,57 @@ Do not commit `node_modules/`.
 
 Replace each TODO before submitting.
 
-## Project Summary
+# Project Summary
 
-TODO
+Mission City Makers Market is a website that features local makers and their products. It includes four makers, their crafts, descriptions, and booth numbers. I used Tailwind CSS for styling and Alpine.js to make the maker filter interactive.
 
 ## Alpine Decision
 
 **User/client need:**  
-TODO
+I wanted visitors to be able to filter makers by craft type so they can find what they're interested in.
 
 **Alpine directives used:**  
-TODO
+I used `x-data` to store the selected category, `x-model` for the dropdown, `x-show` to show or hide maker cards, and `x-text` to update the results message.
 
 **Why Alpine was appropriate:**  
-TODO
+Alpine was a good choice because I could add a simple filter directly to my HTML without writing a lot of JavaScript.
 
 ## Preline Decision
 
 **Preline component selected:**  
-TODO
+I used a Preline accordion.
 
 **Problem it solves:**  
-TODO
+The accordion lets visitors open and close sections to view information without making the page too crowded.
 
 **How you adapted it:**  
-TODO
+I changed the styling to match the colors and overall look of my website.
 
 ## Accessibility Notes
 
-1. TODO
-2. TODO
+1. I added a label to the craft filter so visitors know what it does.
+2. The dropdown works with a keyboard, and the results message updates when a category is selected.
 
 ## Testing Notes
 
-**Narrow viewport:** TODO  
-**Medium viewport:** TODO  
-**Wide viewport:** TODO  
-**Keyboard testing:** TODO  
-**Browser console:** TODO
+**Narrow viewport:** I checked that the content fits on a smaller screen.
+
+**Medium viewport:** I checked that the layout looks organized at a medium screen size.
+
+**Wide viewport:** I checked that the maker cards display properly on desktop.
+
+**Keyboard testing:** I tested using the keyboard to navigate and select a craft category.
+
+**Browser console:** I checked the console for errors.
 
 ## Dependencies
 
-**Alpine.js — how used:** TODO  
-**Preline UI — how used:** TODO  
-**Tailwind CSS — how used:** TODO
+**Alpine.js — how used:** I used Alpine.js to filter the maker cards by craft type.
+
+**Preline UI — how used:** I used Preline UI for the accordion that opens and closes sections of information.
+
+**Tailwind CSS — how used:** I used Tailwind CSS for the layout, colors, spacing, and responsive styling.
+
 
 ## Official Documentation Used
 
